@@ -16,12 +16,12 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		glue= {"com.stepdef"},
 		plugin= {"pretty","json:target/Output.json"})
 public class TestRunnerClassApi {
-//
-//	@AfterClass
-//	public static void afterClass() {
-//
-//		Reporting.generateJvmReport(
-//				"C:\\Users\\praba\\eclipse-workspace\\OMRBranchAdactinAutomation\\target\\AdactinReport.json");
-//	}
+
+	@AfterClass
+	public static void afterClass() {
+
+		Reporting.generateJvmReport(
+				"C:\\Users\\praba\\eclipse-workspace\\OMRBranchAdactinAutomation\\target\\AdactinReport.json");
+	}
 
 }

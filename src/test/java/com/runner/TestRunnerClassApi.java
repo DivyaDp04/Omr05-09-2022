@@ -22,6 +22,14 @@ public class TestRunnerClassApi {
 
 		Reporting.generateJvmReport(
 				"C:\\Users\\praba\\eclipse-workspace\\OMRBranchAdactinAutomation\\target\\AdactinReport.json");
+		
+		Reporting.generateJvmReport(
+				"C:\\Users\\praba\\eclipse-workspace\\OMRBranchAdactinAutomation\\target\\AdactinReport.json");
+		
+	}
+	private void add() {
+
+		System.out.println("Hi");
 	}
 
 }
